@@ -1,0 +1,56 @@
+Creado por WonderlandKissable
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+norm.ani
+help.ani
+work.ani
+busy.ani
+text.ani
+unav.ani
+vert.ani
+horz.ani
+dgn1.ani
+dgn2.ani
+move.ani
+link.ani
+loca.ani
+pers.ani
+prec.ani
+hand.ani
+alt.ani
+
+[Strings]
+CUR_DIR       = "Kagamine_Rin_Cursor"
+SCHEME_NAME   = "Kagamine Rin Cursor by LY"
+pointer       = "norm.ani"
+help          = "help.ani"
+work          = "work.ani"
+busy          = "busy.ani"
+text          = "text.ani"
+unavailiable  = "unav.ani"
+vert          = "vert.ani"
+horz          = "horz.ani"
+dgn1          = "dgn1.ani"
+dgn2          = "dgn2.ani"
+move          = "move.ani"
+link          = "link.ani"
+location      = "loca.ani"
+person        = "pers.ani"
+cross         = "prec.ani"
+hand          = "hand.ani"
+alternate     = "alt.ani"
